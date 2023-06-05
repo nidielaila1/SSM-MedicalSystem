@@ -1,6 +1,6 @@
 # MedicalSystem
 自己学习ssm框架，开发的一个医疗系统
-可能后端页面写的太简陋。。
+（一共分为三端，用户端，医生端，管理员端）
 
 （1）预约挂号：
 进入预约挂号功能界面，选择需要进行预约的科室，进入到门诊界面，选择需要进行预约的时间（只能选择其中有号的时间进行预约），之后找到对应的号源选择上午或者下午，并选择门诊类型（专家门诊，普通门诊），选择好之后选择就诊人（如没有则需进行填写就诊人的信息），最终确认挂号
@@ -46,3 +46,17 @@
 ---------------------------------------------------------------------------------------------------------------------------
 2023-6-2
 已经完成了网页的更新完成了上传
+----------------------------------------------------------------------------
+以下是页面的展示
+![image](https://github.com/nidielaila1/MedicalSystem/assets/118882579/56896103-8687-4858-97dd-09ab79696720)
+用户登录：
+![image](https://github.com/nidielaila1/MedicalSystem/assets/118882579/bf88f51e-6760-47fb-96ed-b367e254abf3)
+用户主页：
+![image](https://github.com/nidielaila1/MedicalSystem/assets/118882579/5a189fe9-70c2-4876-8f1e-515fb043c922)
+用户功能界面：
+![image](https://github.com/nidielaila1/MedicalSystem/assets/118882579/e3dc78f7-60c7-4170-9dcb-63f26d54b69f)
+管理员功能界面：
+![image](https://github.com/nidielaila1/MedicalSystem/assets/118882579/f46fad50-b6dd-41da-b9fe-38045bfd8d40)
+医生功能界面：
+![image](https://github.com/nidielaila1/MedicalSystem/assets/118882579/6c1f453e-df8e-4582-aa88-731821983183)
+
