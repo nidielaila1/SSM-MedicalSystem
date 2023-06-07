@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN" "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+
+    <typeAliases>
+        <typeAlias type="com.Medical.mapper.DepartmentMapper" alias="deptMapper"/>
+        <typeAlias type="com.Medical.mapper.DocMapper" alias="docMapper"/>
+        <typeAlias type="com.Medical.mapper.OrderMapper" alias="orderMapper"/>
+        <typeAlias type="com.Medical.mapper.DoctorMapper" alias="doctorMapper"/>
+        <typeAlias type="com.Medical.mapper.WorkDayMapper" alias="workDayMapper"/>
+        <typeAlias type="com.Medical.mapper.UserMapper" alias="userMapper"/>
+        <typeAlias type="com.Medical.mapper.ManagerMapper" alias="managerMapper"/>
+    </typeAliases>
+</configuration>

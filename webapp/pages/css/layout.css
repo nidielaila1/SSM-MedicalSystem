@@ -1,0 +1,1264 @@
+@media (min-width: 1200px) {
+    .container {
+        width: 1045px
+    }
+}
+
+.containerban {
+    width: 1045px !important;
+}
+
+.row {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+ul, li {
+    list-style: none;
+}
+
+
+/*---导航栏上---*/
+.navbar {
+    margin-bottom: 0;
+    border: none;
+}
+
+.navbar-default {
+    background-color: #fbfbfb;
+}
+
+.Homeheader {
+    width: 100%;
+    height: auto;
+    background: #fbfbfb;
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 20;
+    display: block;
+}
+
+.headertop {
+    width: 1000px;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+}
+
+.logo {
+    float: left;
+    width: 323px;
+    padding: 21px 0;
+}
+
+.logo img {
+    display: block;
+    width: 323px;
+    height: 77px;
+}
+
+.topright {
+    float: right;
+    text-align: right;
+    width: 350px;
+}
+
+@media screen and (max-width: 1044px) {
+    .topright {
+        display: none;
+    }
+}
+
+.signapp {
+    padding-top: 16px;
+    font-size: 1.1em;
+}
+
+.signapp .btn {
+    border-radius: 25px;
+    margin-left: 6px;
+}
+
+.search input {
+    border-radius: 25px;
+}
+
+.search button {
+    border-radius: 25px;
+}
+
+.search {
+    float: right;
+    width: 350px;
+    padding-top: 18px;
+}
+
+
+/*---导航栏下---*/
+.navbg {
+    height: 55px;
+    width: 100%;
+    background: #007bc4;
+}
+
+@media screen and (max-width: 1044px) {
+    .navbg {
+        display: none;
+    }
+}
+
+.nav {
+    width: 1000px;
+    margin: 0px auto;
+}
+
+.nav ul {
+    margin: 0px;
+    padding: 0;
+}
+
+.nav ul li {
+    float: left;
+    padding-right: 5px;
+}
+
+.jiagaoliang li {
+    position: relative;
+}
+
+.nav ul li span {
+    display: inline-block;
+}
+
+.nav ul li span a.cur {
+    color: #ffffff;
+    border-bottom: 5px solid #39b54a;
+}
+
+.nav li span a:hover, .nav li span a.cur {
+    border-bottom-color: #39b54a;
+}
+
+.nav ul li span a {
+    display: inline-block;
+    line-height: 50px;
+    color: #ffffff;
+    font-size: 15px;
+    padding: 0px 31px 0px 31px;
+}
+
+.nav ul li.last {
+    background: none;
+}
+
+.jiagaoliang li span a {
+    padding: 0px 31px 0px 31px;
+    border-bottom: 5px solid transparent;
+}
+
+.xcsubnav {
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    width: 100%;
+    position: absolute;
+    top: 100%;
+    left: -3px;
+    z-index: 99;
+    display: none;
+}
+
+.xcsubnav p a {
+    display: block;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 14px;
+    color: #007bc4;
+}
+
+.xlk li {
+    position: relative;
+}
+
+.nav ul li span a {
+    border-bottom: 5px solid #007bc4;
+}
+
+.nav ul li span a:hover {
+    color: #ffffff;
+    border-bottom: 5px solid #39b54a;
+}
+
+.xlk li:hover .xcsubnav {
+    display: block;
+}
+
+.xcsubnav p a:hover {
+    background-color: #007bc4;
+    color: #fff;
+}
+
+.xcsubnav p {
+    margin: 0;
+}
+
+
+/*---轮播图---*/
+.Homebanner {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+/*---Homecontent---*/
+.Homecontent {
+    background: #eaeaea;
+}
+
+/*// .indexweb {*/
+/*//     margin: 20px auto;*/
+/*//     position: relative;*/
+/*// }*/
+
+.Homenews1 h3 {
+    font-size: 24px;
+    color: #539bd1;
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+.Homenews1 ul {
+    margin: 0 auto;
+    padding: 0;
+}
+
+.Homenews1 ul li {
+    height: 20px;
+    line-height: 20px;
+    overflow: hidden;
+    color: #539bd1;
+    padding-left: 3px;
+    margin-bottom: 8px;
+}
+
+.Homenews1 ul li span {
+    float: right;
+}
+
+
+.Homenews1 ul li a {
+    color: #539bd1;
+}
+
+.Homebuts {
+    float: left;
+    width: 556px;
+    height: 190px;
+
+}
+
+.contentbut1 {
+    width: 117px;
+    height: 82px;
+    float: left;
+    margin: 0 0 20px 17.5px;
+    background: #539bd1;
+}
+
+.contentbut {
+    width: 29%;
+    height: 100%;
+    background: #539bd1;
+    border-radius: 5px;
+    margin: 0 2%;
+}
+
+.contentbut:hover {
+    background: #39b54a;
+}
+
+.contentbuttop {
+    margin-bottom: 2%;
+}
+
+.contentbutbtm {
+    margin-top: 2%;
+}
+
+.contentbut img {
+    margin: 10px auto;
+    display: block;
+    position: relative;
+}
+
+.contentbut a {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+
+/*---Homefoot---*/
+.Homefoot {
+    background: #00406f;
+    padding: 10px 0%;
+    color: #80a0b7;
+    text-align: center;
+}
+
+
+/*---login---*/
+.login {
+    padding-bottom: 80px;
+}
+
+.login h3 {
+    font-size: 18px;
+    color: #007bc4;
+    padding: 30px 0px 30px 25px;
+    line-height: 25px;
+}
+
+.loginleft {
+    padding: 0;
+}
+
+.loginleft img {
+    display: block;
+}
+
+.loginright {
+    border: 1px solid #d8d8d8;
+    height: 310px;
+    padding-top: 30px;
+    padding-left: 5px;
+}
+
+.padleft .col-sm-7 {
+    padding-left: 5px;
+}
+
+.padleft .col-sm-3 {
+    font-size: 1.1em;
+    font-weight: 500;
+}
+
+
+/*---内页banner修改---*/
+.neibanner {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    height: 259px;
+}
+
+.neibanner img {
+    width: 1600px;
+    margin-left: -800px;
+    left: 50%;
+    position: absolute;
+}
+
+@media screen and (max-width: 1044px) {
+    .neibanner {
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 1044px) {
+    .neibanner img {
+        width: 100%;
+        margin-left: 0px;
+        left: 0px;
+        position: relative;
+        display: block;
+    }
+}
+
+
+/*---about-----移动端医院概况修改---*/
+.webbg {
+    width: 100%;
+    background: #fbfbfb;
+    padding-top: 20px;
+}
+
+@media screen and (max-width: 1044px) {
+    .webbg {
+        background: #eaeaea;
+        width: 100%;
+        padding-top: 3%;
+        padding-bottom: 5%;
+    }
+}
+
+.web {
+    width: 1000px;
+    margin: 0px auto;
+    position: relative;
+
+}
+
+@media screen and (max-width: 1044px) {
+    .web {
+        display: block;
+        width: 100%;
+    }
+}
+
+.webleftbg {
+}
+
+@media screen and (max-width: 1044px) {
+    .webleftbg {
+        background: none;
+        padding: 3%;
+        width: 92%;
+        background: #fff;
+        margin: 0 auto;
+    }
+}
+
+.webleft {
+    float: left;
+    width: 230px;
+}
+
+@media screen and (max-width: 1044px) {
+    .webleft {
+        display: none;
+    }
+}
+
+.leftclass {
+    margin: 0px;
+    padding: 0px;
+}
+
+.leftclass ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+.leftclass ul li {
+    margin: 0px;
+    padding: 0px 0px 1px;
+}
+
+.leftclass ul li span {
+    display: block;
+    background: #dcf1fd;
+}
+
+.leftclass ul li span a.cur {
+    color: #FFF;
+}
+
+.leftclass ul li span a {
+    display: block;
+    height: 45px;
+    line-height: 45px;
+    font-size: 14px;
+    padding-left: 55px;
+    color: #007bc4;
+}
+
+.webright {
+    float: right;
+    width: 710px;
+}
+
+@media screen and (max-width: 1044px) {
+    .webright {
+        float: none;
+        padding: 0;
+        width: 100%;
+    }
+}
+
+.title {
+    margin: 0px;
+    padding: 45px 0px 10px 0px;
+    border-bottom: 2px solid #007bc4;
+    display: block;
+}
+
+@media screen and (max-width: 1044px) {
+    .title {
+        display: none;
+    }
+}
+
+.title span {
+    border-left: 6px solid #007bc4;
+    display: inline-block;
+    padding-left: 10px;
+    font-size: 24px;
+    color: #007bc4;
+    line-height: 24px;
+}
+
+.about {
+    padding-right: 25px;
+    padding-bottom: 50px;
+}
+
+@media screen and (max-width: 1044px) {
+    .about {
+        padding: 0;
+    }
+}
+
+.about h3 {
+    line-height: 26px;
+    color: #00a1e9;
+    padding: 35px 0px 25px;
+}
+
+@media screen and (max-width: 1044px) {
+    .about h3 {
+        text-align: center;
+        padding: 5px 0px 15px;
+        margin-top: 0;
+    }
+}
+
+.about p {
+    font-size: 16px;
+    color: #666666;
+    line-height: 1.8;
+}
+
+.leftclass ul li span a:hover {
+    color: #FFF;
+}
+
+/*---register---*/
+.reg {
+    border: 1px solid #dfdfdf;
+    padding-top: 60px;
+    padding-bottom: 50px;
+    font-size: 1.1em;
+}
+
+.reg .col-sm-4 {
+    font-weight: 500;
+}
+
+.reg .form-group {
+    margin-bottom: 20px;
+}
+
+
+/*---News Center修改---*/
+.newslist {
+    margin-bottom: 30px;
+}
+
+.news-pic-content-detail {
+    position: relative;
+    background-color: #fff;
+    height: 205px;
+    margin-top: 20px;
+    overflow: hidden;
+    border: 1px solid #f1f1ff;
+    border-top: 5px solid #3ab1f8;
+    box-shadow: 0px 0px 5px #ccc;
+}
+
+@media screen and (max-width: 450px) {
+    .news-pic-content-detail {
+        height: 125px;
+        padding: 0 10px;
+        border-top: 4px solid #3ab1f8;
+    }
+}
+
+.news-pic-detail-img {
+    height: 175px;
+    padding: 0;
+    margin: 10px 0;
+}
+
+@media screen and (max-width: 450px) {
+    .news-pic-detail-img {
+        height: 100px;
+    }
+}
+
+.news-pic-detail-img img {
+    height: 175px;
+}
+
+@media screen and (max-width: 450px) {
+    .news-pic-detail-img img {
+        height: 100px;
+    }
+}
+
+.news-pic-detail-title {
+    height: 25px;
+    font-size: 18px;
+    color: #333;
+    margin-top: 18px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    overflow: hidden;
+}
+
+@media screen and (max-width: 450px) {
+    .news-pic-detail-title {
+        height: 70px;
+        margin-top: 10px;
+        font-size: 17px;
+    }
+}
+
+.news-pic-detail-description {
+    height: 100px;
+    margin-left: 5px;
+    color: #333;
+    line-height: 23px;
+    font-size: 15px;
+    padding-top: 4px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+}
+
+@media screen and (max-width: 450px) {
+    .news-pic-detail-description {
+        display: none;
+    }
+}
+
+.news-pic-detail-time {
+    background-position-x: 10px;
+    background-position-y: center;
+    background-size: 14px 14px;
+
+}
+
+.news-pic-detail-time {
+    color: #666;
+    font-size: 13px;
+    height: 30px;
+    line-height: 30px;
+    background-repeat: no-repeat;
+    background-position: left;
+    margin-left: 5px;
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+@media screen and (max-width: 450px) {
+    .news-pic-detail-time {
+        margin-top: 0;
+    }
+}
+
+
+/*---News detail---修改*/
+/*---修改---*/
+.newsdetail {
+    margin: 20px auto 5px;
+}
+
+.dt-common-title-txt {
+    text-align: center;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-bottom: 3px solid #3ab1f8;
+    color: #333;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.dt-common-subtitle-container, .dt-common-title-txt {
+    height: 30px;
+    margin: 5px auto 0 auto;
+    display: table;
+    line-height: 40px;
+}
+
+.dt-bottom-page, .dt-common-subtitle-container {
+    position: relative;
+}
+
+.dt-common-date-txt {
+    background-size: 12px;
+}
+
+.dt-common-date-txt, .dt-common-readtimes-txt {
+    height: 100%;
+    font-size: 15px;
+    color: #999;
+    text-indent: 28px;
+    display: table-cell;
+    padding-right: 10px;
+    background-position-x: 10px;
+    background-position-y: center;
+    background-repeat: no-repeat;
+}
+
+/*---修改---*/
+.dt-common-notice-container {
+    padding-top: 20px;
+    color: #666;
+    padding-bottom: 20px;
+    margin-bottom: 0;
+    font-size: 16px;
+    font-family: "宋体", serif;
+    line-height: 1.8em;
+}
+
+/*---userCenter 个人中心---*/
+.usertitle h3 {
+    font-size: 24px;
+    color: #007bc4;
+    padding: 40px 0px 40px 45px;
+    line-height: 30px;
+    margin: 0;
+}
+
+.usertitle h3 span {
+    float: right;
+    font-size: 16px;
+    color: #666;
+}
+
+.usercenterbox {
+    height: 310px;
+    border: 1px solid #ebebeb;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.usercenterbox h4 {
+    border-top: 4px solid #1ddbc7;
+    padding: 15px 20px 15px 20px;
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.basicinf h4 {
+    border-top: 4px solid #39b54a;
+}
+
+.editpass h4 {
+    border-top: 4px solid #007bc4;
+}
+
+.usercenterbox img {
+    padding: 0 20px 25px 20px;
+}
+
+.basicinfcon {
+    text-align: left;
+    padding-left: 20px;
+}
+
+.usernav {
+    text-align: center;
+    width: initial;
+    border: 3px solid #eeeeee;
+    border-radius: 6px;
+}
+
+.userrightcon {
+    border: 3px solid #eeeeee;
+    border-radius: 6px;
+    margin-bottom: 40px;
+}
+
+
+/*---修改---*/
+.userrightcon h3 {
+    padding-bottom: 15px;
+    border-bottom: 2px solid #e6e6e6;
+    text-align: center;
+    margin-bottom: 45px;
+    padding-top: 10px;
+    padding-right: 50px;
+}
+
+.uegroup {
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+.uegroup label {
+    font-weight: 500;
+}
+
+
+/*---后台管理登录---*/
+.loghosbg {
+    width: 100%;
+    height: 100%;
+}
+
+.loginhospcon {
+    border: 1px solid #d8d8d8;
+    border-radius: 10px;
+    padding: 20px 35px 30px 10px;
+    margin: 80px auto 0 auto;
+    background-color: #fff;
+    float: none;
+}
+
+.padlefthosp .forpsw {
+    padding-left: 0px;
+    padding-right: 0px;
+    font-size: 1em;
+    font-weight: 500;
+}
+
+.padlefthosp .col-sm-4 {
+    font-size: 1.1em;
+    font-weight: 500;
+}
+
+.logohosp {
+    height: 80px;
+}
+
+.loginhospcon h3 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #007bc4;
+}
+
+
+/*---移动端首页修改---*/
+.phonesubnav {
+    display: none;
+    position: absolute;
+    left: 0px;
+    top: 119px;
+    z-index: 999;
+    width: 100%;
+    background: #fff;
+}
+
+.phonesubnav ul {
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+.phonesubnav ul li {
+    line-height: 40px;
+}
+
+.phonesubnav ul li .phonesubnavFat {
+    color: #333;
+    display: block;
+    font-size: 15px;
+    text-indent: 20px;
+    border-bottom: 1px solid #e4e4e4;
+    background-size: 16px;
+}
+
+.phonesubnav ul li a {
+    color: #333;
+}
+
+.phonesubnav ul li a:hover {
+    color: #007bc4;
+}
+
+.phonesubnav ul li .phonesubnavSub {
+    background-color: #efefef;
+    text-indent: 40px;
+    line-height: 40px;
+}
+
+.phonesubnav ul li .phonesubnavSub dl {
+    margin: 0;
+}
+
+.phonesubnav ul li .phonesubnavSub dt {
+    border-bottom: 1px solid #e4e4e4;
+    font-weight: 500;
+}
+
+.phonesubnav ul li .phonesubnavSub dt a {
+    display: block;
+    font-size: 14px;
+    text-decoration: none;
+    color: #333;
+    outline: none;
+    text-indent: 40px;
+    line-height: 40px;
+}
+
+@media screen and (max-width: 767px) {
+    .logo {
+        height: 70px;
+        width: auto;
+        padding: 5px 0;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .logo img {
+        display: block;
+        width: auto;
+        height: 60px;
+    }
+}
+
+@media screen and (max-width: 345px) {
+    .logo {
+        height: 50px;
+        width: auto;
+        padding: 5px 0;
+    }
+}
+
+@media screen and (max-width: 345px) {
+    .logo img {
+        display: block;
+        width: auto;
+        height: 40px;
+    }
+}
+
+.phonenavlist {
+    float: right;
+    margin-top: 40px;
+    display: none;
+}
+
+@media screen and (max-width: 1044px) {
+    .phonenavlist {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .phonenavlist {
+        margin-top: 18px;
+    }
+}
+
+@media screen and (max-width: 345px) {
+    .phonenavlist {
+        margin-top: 8px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .phonesubnav {
+        top: 70px;
+    }
+}
+
+@media screen and (max-width: 345px) {
+    .phonesubnav {
+        top: 50px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .contentbut {
+        height: 85px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .Homebutsphone {
+        padding: 0;
+        margin-bottom: -10px;
+    }
+}
+
+@media screen and (max-width: 374px) {
+    .contentbut a {
+        font-size: 12.5px;
+    }
+}
+
+.Homenewsphone {
+    background: #fff;
+    padding: 0;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.Homebutsphone {
+    margin: 20px 0;
+}
+
+.Homenewsphone h3 {
+    width: 100%;
+    background: #539bd1;
+    padding: 0;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.Homenewsphone h3 a {
+    display: block;
+    padding: 9px 0 9px 14px;
+    color: white;
+    font-size: 20px;
+}
+
+.Homenewsphone ul li {
+    padding: 9px 12px 0 12px;
+    margin: 0;
+    height: 38px;
+    overflow: hidden;
+    border-bottom: 1px dashed #dedede;
+    color: #333;
+    line-height: 24px;
+}
+
+.Homenewsphone ul li a {
+    color: #333;
+}
+
+@media screen and (max-width: 768px) {
+    .phoneimg {
+        height: 200px !important;
+        max-width: initial !important;
+        width: 1000px;
+        margin-left: -250px;
+        left: 50%;
+    }
+}
+
+
+/*---医疗团队---*/
+.subject-content-detail {
+    position: relative;
+    background-color: #fff;
+    height: 140px;
+    overflow: hidden;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border: 1px solid #f1f1ff;
+}
+
+.subject-content-detail .subject-detail-img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: #2ebfe1;
+    color: #fff;
+    text-align: center;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    display: table;
+}
+
+@media screen and (max-width: 767px) {
+    .subject-content-detail .subject-detail-img {
+        display: none;
+    }
+}
+
+.subject-detail-img-name {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 0 5px;
+    color: #fff;
+}
+
+.subject-content-detail .subject-detail-title {
+    position: absolute;
+    left: 140px;
+    top: 12px;
+    color: #333;
+    font-size: 16px;
+}
+
+@media screen and (max-width: 767px) {
+    .subject-content-detail .subject-detail-title {
+        left: 15px;
+        top: 10px;
+    }
+}
+
+.subject-content-detail .subject-detail-user {
+    position: absolute;
+    left: 133px;
+    top: 35px;
+    width: 60%;
+    color: #999;
+    padding-bottom: 3px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 767px) {
+    .subject-content-detail .subject-detail-user {
+        display: none;
+    }
+}
+
+.subject-content-detail .subject-detail-line {
+    border-bottom: 1px solid #f1f1f1;
+    position: absolute;
+    top: 60px;
+    left: 138px;
+    right: 10px;
+}
+
+@media screen and (max-width: 767px) {
+    .subject-content-detail .subject-detail-line {
+        top: 35px;
+        left: 15px;
+        border-bottom: 1px solid #3ab1f8;
+    }
+}
+
+.dt-hover-shadow {
+    box-shadow: none;
+    transition: .3s;
+    -moz-transition: .3s;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+}
+
+.dt-hover-shadow:hover {
+    box-shadow: 0 0 12px 4px rgba(0, 0, 0, .1);
+    cursor: pointer;
+}
+
+.subject-content-detail .subject-detail-description {
+    position: absolute;
+    left: 140px;
+    top: 60px;
+    color: #999;
+    font-size: 14px;
+    padding-top: 10px;
+    padding-right: 10px;
+    line-height: 17px;
+    height: 59px;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+}
+
+@media screen and (max-width: 767px) {
+    .subject-content-detail .subject-detail-description {
+        top: 35px;
+        left: 15px;
+    }
+}
+
+@media screen and (max-width: 1044px) {
+    .webbgmti {
+        padding-top: 0;
+    }
+}
+
+@media screen and (max-width: 1044px) {
+    .webbgmti .webleftbg {
+        padding: 0;
+        background: #eaeaea;
+    }
+}
+
+
+/*---医疗团队 详情---*/
+.icon-title span {
+    border-left: 5px solid #007bc4;
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+.icon-title {
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.department-contact {
+    font-size: 15px;
+}
+
+.department-intro {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 35px;
+}
+
+/*---就医指南---*/
+.mgbox {
+    border-radius: 8px;
+    border: 1px solid #f0f0f0;
+    margin: 20px 0;
+    background-color: #007bc4;
+/ / box-shadow: 0 px 0 px 3 px #ccc;
+}
+
+.mgbox:hover {
+    box-shadow: 0 0 12px 4px rgba(0, 0, 0, .1);
+}
+
+.mgbox img {
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+.mgbox h3 {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 22px;
+    color: white;
+}
+
+
+.jiuyizhinan h4 {
+    color: #00a1e9;
+    font-size: 22px;
+    padding-bottom: 10px;
+}
+
+.yuyuebox {
+    margin-top: 30px;
+    margin-bottom: 35px;
+}
+
+
+@media screen and (max-width: 1044px) {
+    .yuyuebox {
+        margin-top: 5px;
+    }
+}
+
+/*---健康教育---*/
+.healthbox {
+    border-top: 5px solid #39b54a;
+}
+
+.healthtitle {
+    border-bottom: 3px solid #39b54a;
+}
